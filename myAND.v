@@ -1,0 +1,37 @@
+module myAND(in1_and, in2_and, out_and);
+  input [31:0] in1_and, in2_and;
+  output [31:0] out_and;
+  
+  and and0(out_and[0], in1_and[0], in2_and[0]);
+  and and1(out_and[1], in1_and[1], in2_and[1]);
+  and and2(out_and[2], in1_and[2], in2_and[2]);
+  and and3(out_and[3], in1_and[3], in2_and[3]);
+  and and4(out_and[4], in1_and[4], in2_and[4]);
+  and and5(out_and[5], in1_and[5], in2_and[5]);
+  and and6(out_and[6], in1_and[6], in2_and[6]);
+  and and7(out_and[7], in1_and[7], in2_and[7]);
+  and and8(out_and[8], in1_and[8], in2_and[8]);
+  and and9(out_and[9], in1_and[9], in2_and[9]);
+  and and10(out_and[10], in1_and[10], in2_and[10]);
+  and and11(out_and[11], in1_and[11], in2_and[11]);
+  and and12(out_and[12], in1_and[12], in2_and[12]);
+  and and13(out_and[13], in1_and[13], in2_and[13]);
+  and and14(out_and[14], in1_and[14], in2_and[14]);
+  and and15(out_and[15], in1_and[15], in2_and[15]);
+  and and16(out_and[16], in1_and[16], in2_and[16]);
+  and and17(out_and[17], in1_and[17], in2_and[17]);
+  and and18(out_and[18], in1_and[18], in2_and[18]);
+  and and19(out_and[19], in1_and[19], in2_and[19]);
+  and and20(out_and[20], in1_and[20], in2_and[20]);
+  and and21(out_and[21], in1_and[21], in2_and[21]);
+  and and22(out_and[22], in1_and[22], in2_and[22]);
+  and and23(out_and[23], in1_and[23], in2_and[23]);
+  and and24(out_and[24], in1_and[24], in2_and[24]);
+  and and25(out_and[25], in1_and[25], in2_and[25]);
+  and and26(out_and[26], in1_and[26], in2_and[26]);
+  and and27(out_and[27], in1_and[27], in2_and[27]);
+  and and28(out_and[28], in1_and[28], in2_and[28]);
+  and and29(out_and[29], in1_and[29], in2_and[29]);
+  and and30(out_and[30], in1_and[30], in2_and[30]);
+  and and31(out_and[31], in1_and[31], in2_and[31]);
+endmodule
